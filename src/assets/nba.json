@@ -1,0 +1,41 @@
+{
+    "nodes": [
+      {"id": "Los Angeles Lakers", "group": 1, "age": 50},
+      {"id": "LeBron James", "group": 2, "age": 36},
+      {"id": "Talen Horton-Tucker", "group": 2, "age": 20},
+      {"id": "Anthony Davis", "group": 2, "age": 28},
+      {"id": "Cleveland Cavaliers", "group": 3, "age": 50},
+      {"id": "Collin Sexton", "group": 4, "age": 26},
+      {"id": "Kevin Love", "group": 4, "age": 32},
+      {"id": "Anderson Varejao", "group": 4, "age": 38},
+      {"id": "Philadelphia 76ers", "group": 5, "age": 50},
+      {"id": "Ben Simmons", "group": 6, "age": 24},
+      {"id": "Joel Embiid", "group": 6, "age": 27},
+      {"id": "Dwight Howard", "group": 6, "age": 35},
+      {"id": "Anillo NBA", "group": 7, "age": 10}
+    ],
+    "links": [
+      {"source": "Los Angeles Lakers", "target": "LeBron James", "value": 3, "distance": 150, "connection": "player"},
+      {"source": "Los Angeles Lakers", "target": "Talen Horton-Tucker", "value": 3, "distance": 150, "connection": "player"},
+      {"source": "Los Angeles Lakers", "target": "Anthony Davis", "value": 3, "distance": 150, "connection": "player"},
+      {"source": "Cleveland Cavaliers", "target": "Los Angeles Lakers", "value": 10, "distance": 500, "connection": "rival"},
+      {"source": "Cleveland Cavaliers", "target": "Collin Sexton", "value": 3, "distance": 150, "connection": "player"},
+      {"source": "Cleveland Cavaliers", "target": "Kevin Love", "value": 3, "distance": 150, "connection": "player"},
+      {"source": "Cleveland Cavaliers", "target": "Anderson Varejao", "value": 3, "distance": 150, "connection": "player"},
+      {"source": "LeBron James", "target": "Kevin Love", "value": 5, "distance": 350, "connection": "former teammate"},
+      {"source": "LeBron James", "target": "Anderson Varejao", "value": 5, "distance": 350, "connection": "former teammate"},
+      {"source": "Philadelphia 76ers", "target": "Los Angeles Lakers", "value": 10, "distance": 500, "connection": "rival"},
+      {"source": "Philadelphia 76ers", "target": "Cleveland Cavaliers", "value": 10, "distance": 500, "connection": "rival"},
+      {"source": "Philadelphia 76ers", "target": "Ben Simmons", "value": 3, "distance": 150, "connection": "player"},
+      {"source": "Philadelphia 76ers", "target": "Joel Embiid", "value": 3, "distance": 150, "connection": "player"},
+      {"source": "Philadelphia 76ers", "target": "Dwight Howard", "value": 3, "distance": 150, "connection": "player"},
+      {"source": "Dwight Howard", "target": "LeBron James", "value": 5, "distance": 350, "connection": "former teammate"},
+      {"source": "Dwight Howard", "target": "Anthony Davis", "value": 5, "distance": 350, "connection": "former teammate"},
+      {"source": "Anillo NBA", "target": "Anthony Davis", "value": 1, "distance": 550, "connection": "champion"},
+      {"source": "Anillo NBA", "target": "LeBron James", "value": 1, "distance": 550, "connection": "champion"},
+      {"source": "Anillo NBA", "target": "Talen Horton-Tucker", "value": 1, "distance": 550, "connection": "champion"},
+      {"source": "Anillo NBA", "target": "Kevin Love", "value": 1, "distance": 550, "connection": "champion"},
+      {"source": "Anillo NBA", "target": "Anderson Varejao", "value": 1, "distance": 550, "connection": "champion"},
+      {"source": "Anillo NBA", "target": "Dwight Howard", "value": 1, "distance": 550, "connection": "champion"}
+    ]
+  }
